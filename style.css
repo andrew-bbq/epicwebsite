@@ -1,0 +1,92 @@
+.bg-darker {
+    background-color: #21252b;
+}
+
+p {
+    font-family: "Roboto";
+    color: lightgrey;
+}
+
+#CSGO {
+    font-family: 'Bungee';
+    font-size: 5.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: -webkit-linear-gradient(#eee, #333);
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em red, 0 0 0.3em red;
+}
+
+#BUTTHOLE {
+    font-family: 'Mr Dafoe';
+    margin: 0;
+    font-size: 5.5em;
+    margin-top: -0.6em;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+    transform: rotate(-10deg);
+  }
+
+#colon {
+    font-family: 'Bungee';
+    font-size: 4.5em;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(32, 19, 18);
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em red, 0 0 0.3em red;
+}
+
+@font-face {
+    font-family: 'Mr Dafoe';
+    src: url("MrDafoe-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Bungee';
+    src: url("Bungee-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("Roboto-Regular.ttf");
+}
+
+h3 {
+    color: white;
+    font-family: "Roboto";
+}
+
+h5 {
+    color: white;
+    font-family: "Roboto";
+}
+
+.smalltext {
+    font-size: 12px;
+}
+
+.ads {
+    width: 200px;
+    height: 180%;
+    margin-top: -160px;
+}
+
+#youjustgotcsgobuttholed {
+    background-image: url("Images/thedogdoin.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.stinkytext {
+    margin-top: 45vh;
+}
+
+.container {
+    min-width: 1000px;
+}
