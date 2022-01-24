@@ -26,7 +26,7 @@
                 <img src="Images/ad.png" class="ads" />
             </div>
             <div class="col-md-4 text-right">
-                <input class="form-control" id="cc" placeholder="Creator Code"/>
+                <input class="form-control" id="cc" placeholder="Creator Code" />
             </div>
             <div class="col-md-2 text-left">
                 <button class="btn btn-primary" onclick="submitCode()">Sign up</button>
@@ -155,15 +155,15 @@
         let ccBox = document.getElementById("cc");
         if ("PEENBOY259" === ccBox.value.toUpperCase() || "CUMBENDER442" === ccBox.value.toUpperCase()) {
             window.location.replace("epicpage.html");
+        } else {
+            document.getElementById("errortext").innerHTML = "Invalid creator code.";
         }
-        document.getElementById("errortext").innerHTML = "Invalid creator code.";
     }
 
     document.getElementById('cc')
-    .addEventListener('keyup', function(event) {
-        if (event.code === 'Enter')
-        {
-            submitCode();
-        }
-    });
+        .addEventListener('keyup', function (event) {
+            if (event.code === 'Enter') {
+                submitCode();
+            }
+        });
 </script>
