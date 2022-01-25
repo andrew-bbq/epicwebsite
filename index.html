@@ -153,9 +153,11 @@
 <script>
     function submitCode() {
         let ccBox = document.getElementById("cc");
-        if ("PEENBOY259" === ccBox.value.toUpperCase() || "CUMBENDER63" === ccBox.value.toUpperCase()) {
+        if ("PEENBOY259" === ccBox.value.toUpperCase() || "CUMBENDER63" === ccBox.value.toUpperCase() ) {
             window.location.replace("epicpage.html");
-        } else {
+        } else if ("BERRMVP" === ccBox.value.toUpperCase()){
+            window.location.replace("berr.html");
+        }else{
             document.getElementById("errortext").innerHTML = "Invalid creator code.";
         }
     }
